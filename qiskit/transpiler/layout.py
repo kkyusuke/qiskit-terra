@@ -165,7 +165,7 @@ class Layout:
             physical_bit (int): A physical bit. For example, 3.
         """
         if physical_bit is None:
-            physical_candidate = 0
+            physical_candidate = 0 #
             while physical_candidate in self._p2v:
                 physical_candidate += 1
             physical_bit = physical_candidate
